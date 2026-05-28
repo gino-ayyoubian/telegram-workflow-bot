@@ -1,0 +1,26 @@
+# State Map
+
+## Main Flow
+```
+START → MAIN_MENU
+```
+
+## Auth Flow
+```
+AUTH_CHECK → REGISTER_NAME → REGISTER_PHONE → VERIFY_OTP → MAIN_MENU
+```
+
+## Order Flow
+```
+SERVICE_LIST → SERVICE_DETAIL → ORDER_FORM → ORDER_REVIEW → ORDER_CONFIRM → MAIN_MENU
+```
+
+## Payment Flow
+```
+PAYMENT_INIT → PAYMENT_PENDING → (PAYMENT_SUCCESS | PAYMENT_FAIL) → MAIN_MENU
+```
+
+## Support Flow
+```
+SUPPORT_MENU → NEW_TICKET → TICKET_OPEN → TICKET_WAITING → MAIN_MENU
+```
